@@ -29,14 +29,14 @@
                             <li>ID:${user[i].id}</li>
                             <li>Name:${user[i].name}</li>
                             <li>${user[i].title}</li>
-                            <li>${user[i].title}</li>
+                            <li><img src="${user[i].img}"></li>
                         </ul>
                         `
                     }
                     document.getElementById('gory').innerHTML=output;
                 }
             }
-            shr.send();
+            xhr.send();
         }
     </script>
 </body>
